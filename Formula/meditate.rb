@@ -1,24 +1,24 @@
 class Meditate < Formula
   desc "Terminal breathing companion — paced breathing, soundscapes, and voice guides"
   homepage "https://github.com/walktalkmeditate/meditate-cli"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/walktalkmeditate/meditate-cli/releases/download/v0.3.0/meditate-aarch64-apple-darwin.tar.gz"
-      sha256 "873cf093421450c5fbcd3e799605d10415a9c52a93b724d4ed1e612177116390"
+      url "https://github.com/walktalkmeditate/meditate-cli/releases/download/v0.4.0/meditate-aarch64-apple-darwin.tar.gz"
+      sha256 "5fc03da36bdd78ffe41d44a496ab3249f1a033f363eae66cb29cf4ea300a0d8e"
     end
     on_intel do
-      url "https://github.com/walktalkmeditate/meditate-cli/releases/download/v0.3.0/meditate-x86_64-apple-darwin.tar.gz"
-      sha256 "3a478b97bad572aef20c70bb955ee5b935d15528c618f9873abcba66679771c8"
+      url "https://github.com/walktalkmeditate/meditate-cli/releases/download/v0.4.0/meditate-x86_64-apple-darwin.tar.gz"
+      sha256 "7d0c4362ea5909e4e901bd5034858700a5ebe2f194a6848243cc621774d0e042"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/walktalkmeditate/meditate-cli/releases/download/v0.3.0/meditate-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7a13b47420c141611afdacdc0d22d27c1160efdc17d1910c6cc06d5482b96714"
+      url "https://github.com/walktalkmeditate/meditate-cli/releases/download/v0.4.0/meditate-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ea8cc0e7a47924a4536b8ab7f00798de1f8948a88c04919ed85a123d69ca08e2"
     end
   end
 
