@@ -1,24 +1,24 @@
 class Talk < Formula
   desc "Terminal listening companion — speak a reflection, and it settles into a quiet file"
   homepage "https://github.com/walktalkmeditate/talk-cli"
-  version "0.2.2"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/walktalkmeditate/talk-cli/releases/download/v0.2.2/talk-aarch64-apple-darwin.tar.gz"
-      sha256 "d641f78a96d18ad9a7d009ad875e37284a49a664beb78215366c0c211cfc6cbd"
+      url "https://github.com/walktalkmeditate/talk-cli/releases/download/v0.3.0/talk-aarch64-apple-darwin.tar.gz"
+      sha256 "3c9a814345fd497e93f0b44d57109cff7500870220f0ed4b1d2b521bde50e973"
     end
     on_intel do
-      url "https://github.com/walktalkmeditate/talk-cli/releases/download/v0.2.2/talk-x86_64-apple-darwin.tar.gz"
-      sha256 "f1db3f78bdcd3ac6765e7f985aa39d780cad726efb1adb3b9f0988136d3c306b"
+      url "https://github.com/walktalkmeditate/talk-cli/releases/download/v0.3.0/talk-x86_64-apple-darwin.tar.gz"
+      sha256 "f27ae7202ea35d786b3d63fc13c25adb7f7cfa94dcb619108fb013503a912dc1"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/walktalkmeditate/talk-cli/releases/download/v0.2.2/talk-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c3d81afdd5ba11a5b01e438ffbbdc55b4dd98dd1c4b09cf37bd9d578a950d941"
+      url "https://github.com/walktalkmeditate/talk-cli/releases/download/v0.3.0/talk-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1be4a70b10f6708ac64018f0380b8254daec1472c1cb6002cf12f3283fd2910f"
     end
   end
 
